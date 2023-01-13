@@ -104,3 +104,61 @@ button{
 }
 
 /* popular collection section design start */
+
+.poupular-collection{
+    width: 100%;
+    margin: 10px 0px;
+}
+.poupular-collection h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+.poupular-collection h6{
+    text-align: right;
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    color: var(--red);
+    cursor: pointer;
+
+}
+.collection{
+    margin: 0 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.item{
+    padding: 10px;
+    box-shadow: 0px 0px 7px var(--grey);
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
+    max-height: 300px;
+}
+.item span{
+    display: block;
+    color: grey;
+    margin-bottom: -5px;
+
+}
+.item h4{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: -10px;   
+}
+.item h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.item .fa-star{
+    color: var(--red);
+}
+.rating{
+    color: var(--grey);
+    display: inline-block;
+}
