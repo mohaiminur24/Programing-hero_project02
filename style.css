@@ -6,3 +6,35 @@
 body{
     font-family: 'Mukta', sans-serif;
 }
+:root{
+    --black:black;
+    --grey:rgb(195, 190, 190);
+    --red:rgb(211, 88, 84);
+    --yellow:rgb(163, 109, 46);
+    --white:white;
+}
+
+/* header start */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.header ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+}
+.cart{
+    font-size: 1.7rem;
+    margin-left: -10px;
+    color: var(--red);
+}
