@@ -90,3 +90,17 @@ button{
 }
 
 /* Company logo section start */
+
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--grey) ;
+    border-bottom: 1px solid var(--grey);
+    height: 120px;
+    margin: 100px 0px;
+
+}
+
+/* popular collection section design start */
