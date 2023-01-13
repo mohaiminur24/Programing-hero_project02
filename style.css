@@ -133,9 +133,10 @@ button{
     gap: 30px;
 }
 .item{
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
     box-shadow: 0px 0px 17px rgb(224, 221, 221);
     border-radius: 7px;
+    
 }
 .item img{
     width: 100%;
@@ -187,4 +188,30 @@ button{
 }
 .f-content button{
     border-radius: 0px;
+}
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    background-color: rgb(4, 4, 58);
+    color: rgb(227, 224, 224);
+    text-align: center;
+    padding: 50px 0px;
+    display: block;
+}
+.footer h2{
+    font-size: 1.5rem;
+}
+.footer p{
+    font-size: .9rem;
+}
+.footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 8px 0px;
+}
+.footer .fa-brands{
+    cursor: pointer;
 }
