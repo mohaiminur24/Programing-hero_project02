@@ -140,7 +140,7 @@ button{
 }
 .item img{
     width: 100%;
-    max-height: 300px;
+    max-height: 250px;
 }
 .item span{
     display: block;
@@ -178,6 +178,8 @@ button{
 .f-content h1{
     font-size: 3.2rem;
     font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 20px;
 }
 .f-content p{
     width: 85%;
